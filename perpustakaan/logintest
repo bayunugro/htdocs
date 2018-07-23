@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Selamat Datang</title>
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/default.css">
+    <!--<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css">
+  </head>
+  <body>
+    <!-- multistep form -->
+    <form id="msform">
+      <!-- progressbar -->
+    <!--  <ul id="progressbar">
+        <li class="active">Account Setup</li>
+        <li>Social Profiles</li>
+        <li>Personal Details</li>
+      </ul>
+      <!-- fieldsets -->
+      <fieldset>
+        <h2 class="fs-title">Daftar Buku Tamu</h2>
+        <h3 class="fs-subtitle"></h3>
+        <input type="text" name="Nama lengkap" placeholder="Nama Lengkap" />
+        <input type="comment" name="Alamat" placeholder="Alamat" />
+        <input type="text" name="email" placeholder="Email" />
+        <input type="text" name="email" placeholder="Email" />
+
+        <input type="password" name="pass" placeholder="Password" />
+        <input type="password" name="cpass" placeholder="Confirm Password" />
+        <input type="button" name="next" class="next action-button" value="Next" />
+      </fieldset>
+
+    </form>
+    <script src="<?php echo base_url();?>/assets/js/default.js"></script>
+  </body>
+</html>
