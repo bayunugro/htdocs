@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Selamat Datang</title>
+    <title>Selamat Datang di Perpustakaan Badan Litbang Perhubungan</title>
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/mdb.css">
   </head>
@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('Login/daftarAnggota'); ?>">Daftar Anggota</a>
+                <a class="nav-link" href="<?php echo base_url('Login/daftarBukutamu'); ?>">Daftar Buku Tamu</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('Login/masuk'); ?>">Login</a>
