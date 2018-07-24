@@ -19,32 +19,33 @@ include_once "header.php";
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-        <a href="<?php echo base_url('Login/daftarBukutamu');  ?>">  <button type="button" class="btn btn-warning">Add Buku Tamu</button></a>
+        <a href="<?php echo base_url('Login/daftarBukutamu');  ?>">  <button type="button" class="btn btn-floating btn-deep-orange">Add Buku Tamu</button></a>
+        
         <table id="dtBasicExample" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
                 <tr>
-                <th class="th-sm">No
+                <th class="th-sm text-center">No
                     <i class="fa fa-sort float-none" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Nama Lengkap
+                <th class="th-sm text-center">Nama Lengkap
                     <i class="fa fa-sort float-none" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Jenis Kelamin
+                <th class="th-sm text-center">Jenis Kelamin
                     <i class="fa fa-sort float-right" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Alamat
+                <th class="th-sm text-center">Alamat
                     <i class="fa fa-sort float-right" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Instansi
+                <th class="th-sm text-center">Instansi
                     <i class="fa fa-sort float-right" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Pekerjaan
+                <th class="th-sm text-center">Pekerjaan
                     <i class="fa fa-sort float-right" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Nomor Telp
+                <th class="th-sm text-center">Nomor Telp
                     <i class="fa fa-sort float-right" aria-hidden="true"></i>
                 </th>
-                <th class="th-sm">Keperluan
+                <th class="th-sm text-center">Keperluan
                     <i class="fa fa-sort float-right" aria-hidden="true"></i>
                 </th>
                 </tr>

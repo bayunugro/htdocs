@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('Login/daftarBukutamu'); ?>">Daftar Buku Tamu</a>
+                <!-- <a class="nav-link" href="<?php echo base_url('Login/daftarBukutamu'); ?>">Daftar Buku Tamu</a> -->
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('Login/masuk'); ?>">Login</a>
