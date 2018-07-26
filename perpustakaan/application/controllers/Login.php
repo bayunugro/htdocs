@@ -10,24 +10,50 @@ class Login extends CI_Controller
   function __construct(){
     parent::__construct();
     
-     $this->load->model(['Mod_bukutamu']);
+     //$this->load->model(['Mod_bukutamu']);
 
   }
+  /**
+   * 
+   * 
+   */
+
+
   public function index()
   {
-    $this->load->view('user/bukutamu');
+
+    $data = $this->Mod_bukutamu->Getbukutamu();
+    $this->load->view('user/bukutamu', array('data' => $data ));
 
   }
+
+  /** 
+   * 
+   * 
+   * 
+   */
+
+
+
   public function daftarBukutamu()
   {
     $this->load->view('user/Reg_bukutamu');
   }
+
+
+  /** 
+   * 
+   * 
+   * 
+   */
   public function masuk()
   {
     $this->load->view('user/masuk');
   }
 
-  // Register Buku Tamu 
+  
+  
+  //  Register Buku Tamu 
 
   public function signup()
   {

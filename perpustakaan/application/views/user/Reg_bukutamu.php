@@ -13,7 +13,7 @@
     </div>
     <div class="container">
       <div class="row justify-content-lg-center ">
-        <form action="<?php echo base_url('Login/signup'); ?>" method="post">
+        <form action="<?php echo base_url('Login/signup'); ?>" method="post" id="bukutamu">
           <div class="form-group row">
             <label for="namaLengkap" class="col-sm-5 col-form-label">Nama Lengkap</label>
             <div class="col-sm-7">
@@ -70,6 +70,7 @@
           <div class="form-group row">
             <div class="offset-sm-5  col-sm-10">
               <button type="submit" name="submit" class="btn btn-green">Register</button>
+              <button type="button" name="ubah" class="btn btn-cyan" disable="disabled" onclick="ubah_bukutamu()">Ubah</button>
             </div>
           </div>
         </form>

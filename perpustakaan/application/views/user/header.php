@@ -4,8 +4,13 @@
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Selamat Datang di Perpustakaan Badan Litbang Perhubungan</title>
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/mdb.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/mdb.css');?>">
+
+    <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js');?>" type="text/javascript"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js');?>" type="text/javascript"></script>
+    <script src="<?php echo base_url('/assets/js/mdb.js');?>" type="text/javascript"></script>
+    <script src="<?php echo base_url('/assets/js/javascript.js');?>" type="text/javascript"></script>
   </head>
   <body>
   
