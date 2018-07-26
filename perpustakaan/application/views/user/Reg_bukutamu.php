@@ -68,9 +68,10 @@
             </div>
           </div>
           <div class="form-group row">
-            <div class="offset-sm-5  col-sm-10">
+            <div class="offset-sm-2  col-sm-12">
               <button type="submit" name="submit" class="btn btn-green">Register</button>
               <button type="button" name="ubah" class="btn btn-cyan" disable="disabled" onclick="ubah_bukutamu()">Ubah</button>
+              <button type="button" name="ubah" class="btn btn-danger" onclick="window.history.back();">Cancel</button>
             </div>
           </div>
         </form>
