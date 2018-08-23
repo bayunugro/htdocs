@@ -34,10 +34,7 @@ class Login extends CI_Controller
   {
     if (isset($_POST['submit'])) {
 
-      $this->form_validation->set_rules('namaLengkap' ,'Nama Lengkap','required|alpha_numeric_spaces|min_length[3]',
-                               array('required' => '%s Harus Di Isi',
-                                      'min_legth' => 'Minimal harus 3 Huruf')
-                              );
+      $this->form_validation->set_rules('namaLengkap' ,'Nama Lengkap','required|alpha_numeric_spaces', array('required' => '%s Harus Di Isi',));
       $this->form_validation->set_rules('alamat' ,'Alamat','required',
                               array('required' => '%s Harap Di Isi',)
                               );
