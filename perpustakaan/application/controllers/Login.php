@@ -30,9 +30,6 @@ class Login extends CI_Controller
     $this->load->view('user/Reg_bukutamu');
   }
 
-
-
-  
   public function signRegistration()
   {
     if (isset($_POST['submit'])) {
@@ -52,6 +49,7 @@ class Login extends CI_Controller
                               array('required' => '%s Harap Di Isi'));
       $this->form_validation->set_rules('keperluan' ,'Keperluan','required|alpha',
                               array('required' => '%s Harap Di Isi'));
+                              
         if ($this->form_validation->run() ==  TRUE) {
           $namaLengkap = $this->input->post('namaLengkap');
           $jeniskelamin = $this->input->post('jenkel');
