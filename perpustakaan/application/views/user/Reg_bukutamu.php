@@ -101,24 +101,11 @@
   <!-- Footer -->
   <?php include_once "footer.php"; ?>
   <!-- Footer -->
-  <script src="<?php echo base_url();?>/assets/js/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo base_url();?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url();?>/assets/js/popper.min.js"></script>
-    <script src="<?php echo base_url();?>/assets/js/mdb.js"></script>
-    <script src="<?php echo base_url();?>/assets/js/javascript.js"></script>
+  <script src="<?php echo base_url();?>assets/js/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/mdb.js"></script>
+    <script src="<?php echo base_url();?>assets/js/javascript.js"></script>
   <script>
-    // Custom JavaScript for Validation
-    (function() {
-      "use strict";
-      window.addEventListener("load", function() {
-        var form = document.getElementById("myForm");
-        form.addEventListener("submit", function(event) {
-          if (form.checkValidity() == false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add("was-validated");
-        }, false);
-      }, false);
-    }());
+
     </script>
