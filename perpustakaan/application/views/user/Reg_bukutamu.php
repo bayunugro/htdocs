@@ -13,10 +13,11 @@
     </div>
     <div class="container">
       <div class="row justify-content-lg-center ">
-        <form action="<?php echo base_url('Login/signup'); ?>" method="post" id="bukutamu">
+        <form action="<?php echo base_url('Login/signRegistration'); ?>" method="post">
+        <?php echo validation_errors('<div class="alert alert-warning">', '</div>'); ?> <br>
           <div class="form-group row">
-            <label for="namaLengkap" class="col-sm-5 col-form-label">Nama Lengkap</label>
-            <div class="col-sm-7">
+            <label for="namaLengkap" class="col-md-5 col-sm12 col-form-label">Nama Lengkap</label>
+            <div class="col-md-7">
               <input type="text" class="form-control" id="nmLengkap" name="namaLengkap" placeholder="Enter Fullname" autocomplete="off">
             </div>
           </div>
@@ -40,7 +41,7 @@
           <div class="form-group row">
             <label for="alaamt" class="col-sm-5 col-form-label">Alamat</label>
             <div class="col-sm-7">
-            <textarea name="alamat" id="alamat" rows="5" cols="50"></textarea>
+            <textarea name="alamat" id="alamat" rows="5" cols="30"></textarea>
             </div>
           </div>
           <div class="form-group row justify-content-lg-center">
@@ -70,7 +71,7 @@
           <div class="form-group row">
             <div class="offset-sm-2  col-sm-12">
               <button type="submit" name="submit" class="btn btn-green">Register</button>
-              <button type="button" name="ubah" class="btn btn-cyan" disable="disabled" onclick="ubah_bukutamu()">Ubah</button>
+              <!-- <button type="button" name="ubah" class="btn btn-cyan" disable="disabled" onclick="ubah_bukutamu()">Ubah</button> -->
               <button type="button" name="ubah" class="btn btn-danger" onclick="window.history.back();">Cancel</button>
             </div>
           </div>

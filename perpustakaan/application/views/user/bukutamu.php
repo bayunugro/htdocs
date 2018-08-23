@@ -13,7 +13,7 @@ include_once "header.php";
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-        <a href="<?php echo base_url('Login/daftarBukutamu');  ?>">  <button type="button" class="btn btn-floating btn-deep-orange">Add Buku Tamu</button></a>
+        <a href="<?php echo base_url('Login/registration');  ?>">  <button type="button" class="btn btn-floating btn-deep-orange">Add Buku Tamu</button></a>
 
         
         <table id="dtBasicExample" class="table table-striped table-bordered" cellspacing="0" width="100%">
